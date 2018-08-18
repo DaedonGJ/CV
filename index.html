@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CV Carlos Garrido Junco</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <style>
+
+            .Info{ 
+                display: none;
+            }
+        </style>
+        <script>
+
+
+            var elements = document.getElementsByClassName("Info");
+            var contador;
+            function ocultarElementos(nume) {
+                if (nume == contador) {
+                    contador = -1;
+                    elements[nume].style.display = "none";
+                } else {
+                    contador = nume;
+                    for (i = 0; i < 6; i++) {
+                        if (i == nume) {
+
+                            elements[i].style.display = "block";
+                        } else {
+                            elements[i].style.display = "none";
+                        }
+                    }
+                }
+
+
+
+
+            }
+        </script>
+    </head>  
+    <body >
+        <div class="container" style="background-color:#F0F8FF; height: 100%;  ">
+            <h1 align="center">CURRÍCULUM VITAE</h1>
+            <hr>
+            <div class="row">
+                <div class="col-md-4"> 
+                    <img src="" style="float:right;width:100%;"> 
+                
+                </div>
+
+                <div class="col-md-8">
+                    <!--                Educación y formación-->
+                    <h2 >xxx</h2>
+                    <hr>
+                    <div  onclick="ocultarElementos(0)">
+                        <h2 >Información personal</h2>
+                        <div class="Info" >
+                            <div class="row">  
+                                <div class="col-md-3"style="color: #23527c">Fecha de nacimiento:</div>
+                                <div class="col">
+                                    <div >
+                                       xx
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">  
+                                <div class="col-md-3"style="color: #23527c">DNI:</div>
+                                <div class="col">
+                                    <div >
+                                   xxxx
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">  
+                                <div class="col-md-3"style="color: #23527c">Nº Afiliación a la Seguridad Social:</div>
+                                <div class="col">
+                                    <div >
+                                     xxxx
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">  
+                                <div class="col-md-3"style="color: #23527c">Teléfono:</div>
+                                <div class="col">
+                                    <div >
+                                    xxxxx
+                                    </div>
+
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">  
+                                <div class="col-md-3"style="color: #23527c">Dirección:</div>
+                                <div class="col">
+                                    <div >
+                                xxxxxx
+                                    </div>
+
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">  
+                                <div class="col-md-3"style="color: #23527c">Correo:</div>
+                                <div class="col">
+                                    <div >
+                          xxxxx
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div onclick="ocultarElementos(1)">
+
+                        <h2>Educación y formación</h2>
+                        <div  class="Info">
+                            <div class="row">  
+                                <div class="col-md-3"style="color: #23527c">09/2016–06/2018</div>
+                                <div class="col">
+                                    <div style="color: #23527c">
+                                        Grado superior en desarrollo de aplicaciones de multiplataforma
+                                    </div>
+                                    <div >
+                                     xxxxx
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">  
+                                <div class="col-md-3"style="color: #23527c">09/2013–06/2015</div>
+                                <div class="col">
+                                    <div style="color: #23527c">
+                                        Bachillerato científico y tecnológico
+                                    </div>
+                                    <div >
+                                        xxxxxx
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <!--                Experiencia profesional-->
+                    <div onclick="ocultarElementos(2)">
+                        <h2>Experiencia profesional</h2>
+                        <div  class="Info"  > 
+                            <div class="row">  
+                                <div class="col-md-3"style="color: #23527c">03/04/2018–06/2018</div>
+                                <div class="col">
+                                    <div style="color: #23527c">
+                                        Prácticas
+                                    </div>
+                                    <div >
+                                      xxxxxx
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--                Competencias digitales-->
+                    <hr>
+                    <div  onclick="ocultarElementos(3)">
+                        <h2>Competencias digitales</h2>
+                        <div class="Info">
+                            -XML.<hr>
+                            -XPATH.<hr>
+                            -XSLT.<hr>
+                            -XML schema.<hr>
+                            -HTML5.<hr>
+                            -Java.<hr>
+                            -Ruby.<hr>
+                            -PHP.<hr>
+                            -JavaScriipt<hr>
+                            -Phyton.<hr>
+                            -Applets en java.<hr>
+                            -Procesos y servicios en java.<hr>
+                            -Android.<hr>
+                            -Manejo de ERP como Odoo.<hr>
+                            -Creación de módulos en ERP como en odoo.<hr>
+                            -Manejo de bases de datos como: MySQL ,OracleSQL,MongoDB, Neodatis,ExistDb.<hr>
+                            -JQuery.<hr>
+                            -JSON.<hr>
+                            -PSQL.<hr>
+                            -jdbc.<hr>
+                            -java swing.<hr>
+                            -java awt.<hr>
+                            -javafx.<hr>
+                            -jasperreport.<hr>
+                            -SQL.<hr>
+                            -SOA.<hr>
+                            -BPEL.<hr>
+                            -WSDL.
+                        </div>
+                    </div>
+                    <hr>
+                    <!--                    Idiomas-->
+                    <div  onclick="ocultarElementos(4)">
+                        <h2>Idiomas</h2>
+                        <div class="Info" >Nivel B1 de Inglés</div>
+                    </div>
+                    <hr>
+                    <!--                Otras Datos de interes-->
+                    <div onclick="ocultarElementos(5)">
+                        <h2>Otros Datos de interes</h2>
+                        <div class="Info" >
+                            Con mi trabajo, suelo ser bastante meticuloso, aunque eso no me impide cumplir
+                            satisfactoriamente con este, debido a que soy constante y no me distraigo mientras realizó una
+                            tarea.
+                        </div>
+                    </div>
+                    <hr>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>                   
+                    <br>
+                    <br>                    
+                    <br>                    
+
+                    <br>
+
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </body>
+</html>
